@@ -1,0 +1,79 @@
+.body1-container, .nav-bg{
+    background: url('https://razor.com/wp-content/themes/razor/assets/images/bg-home-20.jpg') center center/cover no-repeat;
+    height: 80vh;
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    /* opacity: 0.5; */
+    
+    
+}
+.nav-bg{
+    margin-top: 20px;
+    
+}
+.over-text {
+    margin-top: -200px;
+    color: #e10b00;
+    margin-left: 100px;
+}
+.view-product-btn {
+    margin-left: 150px;
+}
+
+.body2-container, .body3-container {
+    margin-bottom: 21px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Gilroy Extrabold',Arial,sans-serif;
+    letter-spacing: -1px;
+    word-spacing: 3px;
+   
+}
+
+.body2-title, .body3-title{
+    margin: 60px 0 60px 0;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.carousel-section {
+    /* display: flex; */
+     
+ }
+ .content1 {
+    width: 100%;
+    height: 500px;
+    
+ }
+ .items {
+    display: flex;
+    /* margin-left: 150px; */
+ }
+ .item{
+    width: 200px;
+    height: 400px;
+    margin-left: 150px;
+ }
+ .img{
+    /* width: 200px; */
+    /* height: 200px; */
+    margin-left: 250px;
+ }
+ .cartImg {
+   margin-top: -20px;
+   background-repeat: no-repeat;
+ }
+ .body3-title{
+    margin-top: 100px;
+ }
+ .collection{
+    display: flex;
+ }
+
+ 
+ 
+
+ 
