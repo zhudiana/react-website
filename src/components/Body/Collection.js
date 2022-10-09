@@ -7,37 +7,13 @@ const Collection = (props) => {
       <ul className="collection">
         <li className="each-collection">
           {" "}
-          <img src={props.img} />
+          <img src={props.img} className="img-collection" />
+          <h4 className="under-text">{props.name}</h4>
         </li>
         <li className="each-collection">
           {" "}
-          <img src={props.img} />
-        </li>
-        <li className="each-collection">
-          {" "}
-          <img src={props.img} />
-        </li>
-        <li className="each-collection">
-          {" "}
-          <img src={props.img} />
-        </li>
-      </ul>
-      <ul className="collection">
-        <li className="each-collection">
-          {" "}
-          <img src={props.img} />
-        </li>
-        <li className="each-collection">
-          {" "}
-          <img src={props.img} />
-        </li>
-        <li className="each-collection">
-          {" "}
-          <img src={props.img} />
-        </li>
-        <li className="each-collection">
-          {" "}
-          <img src={props.img} />
+          <img src={props.img} className="img-collection" />
+          <h4 className="under-text">{props.name}</h4>
         </li>
       </ul>
     </div>

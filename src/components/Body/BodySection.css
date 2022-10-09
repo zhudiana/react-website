@@ -17,6 +17,9 @@
     margin-top: -200px;
     color: #e10b00;
     margin-left: 100px;
+    font-family: 'Comforter Brush', cursive;
+    font-weight: 900;
+    font-size: 70px;
 }
 .view-product-btn {
     margin-left: 150px;
@@ -69,9 +72,112 @@
  .body3-title{
     margin-top: 100px;
  }
- .collection{
-    display: flex;
+ .each-collection{
+   
+    list-style: none;
  }
+ .collections-list{
+    display: flex;  
+ }
+ .img-collection{
+    max-height: 255px;
+    min-width: 150px;
+    margin: 70px 150px 150px 50px;
+    cursor: pointer;
+
+    
+}
+
+
+.under-text {
+    font-family: 'Gilroy Black', Arial,  sans-serif;
+    font-size: 1.6rem;
+    line-height: 1;
+    min-height: 6.9rem;
+    font-weight: 900;
+    margin-top: -100px;
+
+}
+
+.body5-container {
+    background: url("https://razor.com/wp-content/themes/razor/assets/images/bg-testimonials.png") no-repeat 50% 50%/100% 100%;
+    height: 900px;
+    
+}
+.body5-text {
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-family: 'Comforter Brush', cursive;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.after-text-img {
+    margin: -20px 0 0 15px;
+}
+.test{
+    list-style: none;
+    display: flex;
+    color: #fff;
+    width: 600px;
+    margin-left: 200px;
+   
+}
+.testimony {
+ /* align-items: center; */
+ margin-left: 100px;
+}
+.test strong {
+    font-size: 1.5rem;
+    line-height: 1;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    
+}
+
+.test p{
+    width: 300px;
+    font-size: 1.3rem ;
+}
+.test li{
+    margin-right: 150px;
+}
+.test h7{
+    font-weight: 900;
+    margin-left: 100px;
+    /* margin-top: -10px; */
+}
+
+.star{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.stars {
+    list-style: none;
+    margin-right: -18px;
+}
+.stars-list{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+.stars-list-2 {
+    margin-left: 50%;
+    display: flex;
+    margin-bottom: 50px;
+}
+.footer-container {
+    background: url("https://razor.com/wp-content/themes/razor/assets/images/footer-bg.jpg") no-repeat 50% 50%/100% 100%;
+    height: 600px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
 
  
  
